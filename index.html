@@ -29,42 +29,41 @@
     </style>
   </head>
   <body class="bg-gradient-to-b from-gray-50 to-[#d2d6db]">
-    <!-- Home
-    Features
-    Pricing
-    About us
-    Contact
-    Learn more
-    See pricing -->
-    <footer class="bg-white m-4 py-12 px-4 grid grid-cols-4 gap-12 md:grid-cols-6 lg:grid-cols-12 md:gap-y-16 md:py-44">
+    <footer class="bg-white m-4 py-12 px-4 grid grid-cols-4 gap-12 md:grid-cols-6 lg:grid-cols-12 md:gap-y-16 md:py-44 lg:px-16 lg:py-24">
       <!-- Newsletter -->
-       <div class="flex flex-col gap-8 col-span-4 md:col-span-6">
-        <div class="">
+       <div class="flex flex-col gap-8 col-span-4 md:col-span-6 lg:col-span-12
+       lg:grid lg:grid-cols-12 lg:pt-[63px]">
+        <div class="lg:col-span-8">
           <h2 class="text-xl font-semibold text-neutral-900 mb-2">Join our newsletter</h2>
           <p class="text-base text-neutral-600">We’ll send you a nice letter once per week. No spam.</p>
         </div>
         <!-- Form section -->
-        <form class="flex flex-col gap-4 md:grid md:grid-cols-6">
+        <form class="flex flex-col gap-4 md:grid md:grid-cols-6
+        lg:col-span-4 lg:flex lg:flex-row lg:items-center lg:justify-between">
           <div class="md:col-span-5">
             <label for="email" class="sr-only">Email address</label>
-            <input class="w-full text-neutral-900 border border-neutral-200 rounded px-3.5 py-2.5 placeholder:text-sm placeholder:text-neutral-500 bg-neutral-50
+            <input class="w-full lg:min-w-[270px] text-neutral-900 border border-neutral-200 rounded px-3.5 py-2.5 placeholder:text-sm placeholder:text-neutral-500 bg-neutral-50
             focus:outline-none focus:ring-2 focus:ring-neutral-200 focus:border-indigo-600
             disabled:text-neutral-400 disabled:border-none disabled:placeholder:text-neutral-400" id="email" type="email" placeholder="Enter your email">
           </div>
           <button class="bg-indigo-700 text-white text-sm font-medium rounded drop-shadow
           py-2.5 hover:bg-indigo-800 focus:ring-2 focus:ring-neutral-200
-          disabled:text-neutral-400 disabled:bg-neutral-100 disabled:drop-shadow-none" type="">Subscribe</button>
+          disabled:text-neutral-400 disabled:bg-neutral-100 disabled:drop-shadow-none
+          lg:px-[14px]"
+          type="submit">Subscribe</button>
         </form>
        </div>
 
        <!-- Middle links section -->
-        <div class="flex flex-col gap-8 col-span-4 md:grid md:grid-cols-6 md:gap-8 md:w-[90vw] md:gap-y-12">
-          <div class="flex flex-col gap-6 md:col-span-6">
+        <div class="flex flex-col gap-8 col-span-4 md:grid md:grid-cols-6 md:gap-8 md:w-[90vw] md:gap-y-12
+        lg:col-span-12 lg:grid-cols-12">
+          <div class="flex flex-col gap-6 md:col-span-6
+          lg:col-span-6">
             <!-- Logo and brand description -->
             <div class="">
               <img class="" src="/img/Logo.png" alt="StyleNest logo">
             </div>
-            <p class="text-base text-neutral-600 md:max-w-80">Craft stunning style journeys that weave more joy into every thread.</p>
+            <p class="text-base text-neutral-600 md:max-w-80 lg:max-w-[350px]">Craft stunning style journeys that weave more joy into every thread.</p>
           </div>
 
           <!-- Categories -->
@@ -90,7 +89,8 @@
         </div>
 
         <!-- Copyright and social media links section -->
-         <div class="flex flex-col gap-8 pt-8 border-t col-span-4 md:flex-row md:items-center md:w-[90vw]">
+         <div class="flex flex-col gap-8 pt-8 border-t col-span-4 md:flex-row md:items-center md:w-[90vw]
+         lg:col-span-12 lg:justify-between lg:pb-[63px]">
           <p class="text-neutral-500">&copy; 2024 StyleNest, Inc. All rights reserved.</p>
           <ul class="text-neutral-400 text-[24px] flex gap-6">
             <li>
