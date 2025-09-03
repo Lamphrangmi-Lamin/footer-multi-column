@@ -36,56 +36,63 @@
     Contact
     Learn more
     See pricing -->
-    <footer class="bg-white h-screen m-4 py-12">
+    <footer class="bg-white m-4 py-12 px-4 grid gap-12">
       <!-- Newsletter -->
-       <div class="">
+       <div class="flex flex-col gap-8">
         <div class="">
-          <h2>Join our newsletter</h2>
-          <p>We’ll send you a nice letter once per week. No spam.</p>
+          <h2 class="text-xl font-semibold text-neutral-900 mb-2">Join our newsletter</h2>
+          <p class="text-base text-neutral-600">We’ll send you a nice letter once per week. No spam.</p>
         </div>
         <!-- Form section -->
-        <form class="">
-          <input type="email" placeholder="Enter your email">
-          <button>Subscribe</button>
+        <form class="flex flex-col gap-4">
+          <div class="">
+            <label for="email" class="sr-only">Email address</label>
+            <input class="w-full text-neutral-900 border border-neutral-200 rounded px-3.5 py-2.5 placeholder:text-sm placeholder:text-neutral-500 bg-neutral-50
+            focus:outline-none focus:ring-2 focus:ring-neutral-200 focus:border-indigo-600
+            disabled:text-neutral-400 disabled:border-none disabled:placeholder:text-neutral-400" id="email" type="email" placeholder="Enter your email">
+          </div>
+          <button class="bg-indigo-700 text-white text-sm font-medium rounded drop-shadow
+          py-2.5 hover:bg-indigo-800 focus:ring-2 focus:ring-neutral-200
+          disabled:text-neutral-400 disabled:bg-neutral-100 disabled:drop-shadow-none" type="">Subscribe</button>
         </form>
        </div>
 
        <!-- Middle links section -->
-        <div class="">
-          <div class="">
+        <div class="flex flex-col gap-8">
+          <div class="flex flex-col gap-6">
             <!-- Logo and brand description -->
-            <div class="logo">
-              <img src="/img/Logo.png" alt="StyleNest logo">
+            <div class="">
+              <img class="" src="/img/Logo.png" alt="StyleNest logo">
             </div>
-            <p>Craft stunning style journeys that weave more joy into every thread.</p>
+            <p class="text-base text-neutral-600">Craft stunning style journeys that weave more joy into every thread.</p>
           </div>
 
           <!-- Categories -->
-          <div class="">
-             <h2>SHOP CATEGORIES</h2>
-             <ul>
-              <li><a href="#">Unisex</a></li>
-              <li><a href="#">Women</a></li>
-              <li><a href="#">Men</a></li>
+          <div class="flex flex-col gap-4">
+             <h2 class="text-neutral-500">SHOP CATEGORIES</h2>
+             <ul class="text-neutral-600 font-medium flex flex-col gap-3">
+              <li><a aria-disabled="false" class="hover:text-neutral-900 focus:ring-2 focus:drop-shadow aria-disabled:text-neutral-400 px-0.5 rounded focus:ring-neutral-200" href="#">Unisex</a></li>
+              <li><a aria-disabled="false" class="hover:text-neutral-900 focus:ring-2 focus:drop-shadow aria-disabled:text-neutral-400 px-0.5 rounded focus:ring-neutral-200" href="#">Women</a></li>
+              <li><a aria-disabled="false" class="hover:text-neutral-900 focus:ring-2 focus:drop-shadow aria-disabled:text-neutral-400 px-0.5 rounded focus:ring-neutral-200" href="#">Men</a></li>
              </ul>
           </div>
 
           <!-- Collections -->
-          <div class="">
-            <h3>SHOP COLLECTIONS</h3>
-            <ul>
-              <li><a href="#">Latest arrivals</a></li>
-              <li><a href="#">Urban Oasis</a></li>
-              <li><a href="#">Cozy Comfort</a></li>
-              <li><a href="#">Fresh Fusion</a></li>
+          <div class="flex flex-col gap-4">
+            <h3 class="text-neutral-500">SHOP COLLECTIONS</h3>
+            <ul class="text-neutral-600 font-medium flex flex-col gap-3">
+              <li><a aria-disabled="false" class="hover:text-neutral-900 focus:ring-2 focus:drop-shadow aria-disabled:text-neutral-400 px-0.5 rounded focus:ring-neutral-200" href="#">Latest arrivals</a></li>
+              <li><a aria-disabled="false" class="hover:text-neutral-900 focus:ring-2 focus:drop-shadow aria-disabled:text-neutral-400 px-0.5 rounded focus:ring-neutral-200" href="#">Urban Oasis</a></li>
+              <li><a aria-disabled="false" class="hover:text-neutral-900 focus:ring-2 focus:drop-shadow aria-disabled:text-neutral-400 px-0.5 rounded focus:ring-neutral-200" href="#">Cozy Comfort</a></li>
+              <li><a aria-disabled="false" class="hover:text-neutral-900 focus:ring-2 focus:drop-shadow aria-disabled:text-neutral-400 px-0.5 rounded focus:ring-neutral-200" href="#">Fresh Fusion</a></li>
              </ul>
           </div>
         </div>
 
         <!-- Copyright and social media links section -->
-         <div class="">
-          <p>&copy; 2025 StyleNest, Inc. All rights reserved.</p>
-          <ul class="">
+         <div class="flex flex-col gap-8 pt-8 border-t">
+          <p class="text-neutral-500">&copy; 2025 StyleNest, Inc. All rights reserved.</p>
+          <ul class="text-neutral-400 text-[24px] flex gap-6">
             <li>
               <a href="#">
                 <i class="ri-youtube-line"></i>
