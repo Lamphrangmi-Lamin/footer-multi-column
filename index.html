@@ -4,12 +4,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hero Section | GreatFrontEnd Projects</title>
+    <title>Footer (Multi-column)</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
+    />
+    <!-- RemixIcons CDN link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -23,12 +28,7 @@
       /* You may write styles inside this <style> tag or within `css/style.css`. */
     </style>
   </head>
-  <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
-
+  <body class="bg-gradient-to-b from-gray-50 to-[#d2d6db]">
     <!-- Home
     Features
     Pricing
@@ -36,6 +36,84 @@
     Contact
     Learn more
     See pricing -->
+    <footer class="bg-white h-screen m-4 py-12">
+      <!-- Newsletter -->
+       <div class="">
+        <div class="">
+          <h2>Join our newsletter</h2>
+          <p>We’ll send you a nice letter once per week. No spam.</p>
+        </div>
+        <!-- Form section -->
+        <form class="">
+          <input type="email" placeholder="Enter your email">
+          <button>Subscribe</button>
+        </form>
+       </div>
+
+       <!-- Middle links section -->
+        <div class="">
+          <div class="">
+            <!-- Logo and brand description -->
+            <div class="logo">
+              <img src="/img/Logo.png" alt="StyleNest logo">
+            </div>
+            <p>Craft stunning style journeys that weave more joy into every thread.</p>
+          </div>
+
+          <!-- Categories -->
+          <div class="">
+             <h2>SHOP CATEGORIES</h2>
+             <ul>
+              <li><a href="#">Unisex</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Men</a></li>
+             </ul>
+          </div>
+
+          <!-- Collections -->
+          <div class="">
+            <h3>SHOP COLLECTIONS</h3>
+            <ul>
+              <li><a href="#">Latest arrivals</a></li>
+              <li><a href="#">Urban Oasis</a></li>
+              <li><a href="#">Cozy Comfort</a></li>
+              <li><a href="#">Fresh Fusion</a></li>
+             </ul>
+          </div>
+        </div>
+
+        <!-- Copyright and social media links section -->
+         <div class="">
+          <p>&copy; 2025 StyleNest, Inc. All rights reserved.</p>
+          <ul class="">
+            <li>
+              <a href="#">
+                <i class="ri-youtube-line"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ri-instagram-line"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ri-facebook-box-line"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ri-github-line"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ri-twitter-x-line"></i>
+              </a>
+            </li>
+          </ul>
+         </div>
+    </footer>
 
     <!-- Attribute this challenge to yourself! -->
     <div class="credits">
